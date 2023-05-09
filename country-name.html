@@ -18,7 +18,6 @@
                 let country = data.map((e)=>`${e.name.common} - ${e.population} - ${e.region}`)
                 console.log(country)
             }
-
             const req = new XMLHttpRequest();
             req.addEventListener('load',handleData)
             req.onload = (res)=>{
