@@ -14,4 +14,3 @@ for(let e in details1)
     }
 }
 JSON?console.log("Equall"):console.log("Not Equall")
-
